@@ -13,16 +13,16 @@ namespace RoomCalculator
             do {
                 // prompt the user for input
                 Console.Write("Enter Length:");
-                double l = double.Parse(Console.ReadLine());
+                double length = double.Parse(Console.ReadLine());
                 Console.Write("Enter Width:");
-                double w = double.Parse(Console.ReadLine());
+                double width = double.Parse(Console.ReadLine());
                 Console.Write("Enter Height:");
-                double h = double.Parse(Console.ReadLine());
+                double height = double.Parse(Console.ReadLine());
 
                 // calculate values and output results
-                Console.WriteLine("Area:" + l * w);
-                Console.WriteLine("Perimeter:" + (2 * l + 2 * w));
-                Console.WriteLine("Volume:" + l * w * h);
+                Console.WriteLine("Area:" + length * width);
+                Console.WriteLine("Perimeter:" + (2 * length + 2 * width));
+                Console.WriteLine("Volume:" + length * width * height);
 
                 // ask user to go again
                 Console.WriteLine("\nContinue(y/n)");
